@@ -7,9 +7,9 @@ Description:
     Once an exam file is read, the user can modify, save, take, and grade the exam.
 
     Breakdown:
-            1. ExamBuilder – *Used by an instructor to create and modify exams.*
-            2. ExamTaker   – *Used by students to take an exam and record their answers.*
-            3. ExamGrader  – *Used by an instructor to evaluate students’ answers and determine scores.*
+            1. ExamBuilder – Used by an instructor to create and modify exams
+            2. ExamTaker   – Used by students to take an exam and record their answers.
+            3. ExamGrader  – Used by an instructor to evaluate students’ answers and determine scores.
 
 **************************************************************************
 How to run the program
@@ -29,7 +29,7 @@ Makefile:
                 "java ExamGraderGUI"
 
 **************************************************************************
-Exam text File Format:
+Exam Format:
 
     Types of exam questions:
         MCSAQuestion: Multiple choice single answer
@@ -37,17 +37,11 @@ Exam text File Format:
         NumQuestion:  Short answer with numerical answer
         SAQuestion:   Short question
 
-    This repository contains a sample exam text file (exam.txt) for reference
+    A sample exam text file (se.txt) in included for reference
 
-    Format:
+se.txt Format:
         Exam title
-        Date placeholder
-
-        MCSAQuestion (Question type from above)
-        Question total points
-        Question text
-        Number of multiple choice options
-        Answer point Answer text
+        Date 
 
         MCMAQuestion
         Question total points
@@ -55,15 +49,21 @@ Exam text File Format:
         Base credit (the lowest amount of points)
         Number of multiple choice options
         Answer point Answer text
- 
-
-        NumQuestion (Question type from above)
+        
+        MCSAQuestion 
+        Question total points
+        Question text
+        Number of multiple choice options
+        Answer point Answer text
+        
+        *Not included in se.txt*
+        NumQuestion 
         Question total points
         Question text
         Answer
         Threshold 
 
-        SAQuestion (Question type from above)
+        SAQuestion 
         Question total points
         Question text
         Answer
