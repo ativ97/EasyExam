@@ -1,5 +1,5 @@
 # EasyExam
-This is an Easy graphical interfaced Exam creater which also allows students to take the exam and then automatically grades it
+This is an simple GUI-based exam creater which also allows instructors to make/grade and students to take an exam.
 
 Description: 
 
