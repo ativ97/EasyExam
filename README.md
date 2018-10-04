@@ -6,13 +6,13 @@ Description:
     This application allows users to load/create an exam file.
     Once an exam file is read, the user can modify, save, take, and grade the exam.
 
-    Breakdown:
-            1. ExamBuilder – Used by an instructor to create and modify exams
-            2. ExamTaker   – Used by students to take an exam and record their answers.
-            3. ExamGrader  – Used by an instructor to evaluate students’ answers and determine scores.
+    Division:
+            1. ExamBuilder – Used by instructors to create exams.
+            2. ExamTaker   – Used by students to take exams.
+            3. ExamGrader  – Used by instructors to grade exams.
 
 **************************************************************************
-How to run the program
+How to run
 
 Makefile:
 
